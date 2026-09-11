@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Add Car - AutoMarket</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/addcar.css">
 </head>
 <body>
 <header>
@@ -26,7 +27,7 @@
   <div class="container">
     <h2 class="page-title">Add Your Car</h2>
     <div class="form-container">
-      <form id="add-car-form">
+      <form id="add-car-form" class="add-car-form">
         <div class="form-group">
           <label for="colour">Colour</label>
           <input type="text" id="colour" name="colour" placeholder="Enter car colour">
@@ -65,9 +66,9 @@
 
 <footer>
   <div class="container">
-    <p>&copy; 2026 AutoMarket. All rights reserved.</p>
+    <p>&copy; <span data-current-year>2026</span> AutoMarket. All rights reserved.</p>
   </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/addcar.js"></script>
 </body>
 </html>
