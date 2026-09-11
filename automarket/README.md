@@ -9,8 +9,12 @@ run it.
 - `develop`: integration branch. Feature branches are merged here by pull
   request.
 - `feature/common`: shared project files.
-- `feature/student-a`: Student A pages.
-- `feature/student-b`: Student B pages.
+- `feature/homepage`: homepage (`index.html`).
+- `feature/seller-page`: seller center (`seller.html`).
+- `feature/registration`: seller registration (`register.html`).
+- `feature/add-car`: add-car form (`add-car.html`).
+- `feature/login`: seller login (`login.html`).
+- `feature/search`: car search (`search.html`).
 
 ## Module Ownership
 
@@ -22,12 +26,12 @@ run it.
 
 ### Student A
 
-- `index.html`
-- `seller.html`
-- `register.html`
+- `feature/homepage` -> `index.html`
+- `feature/seller-page` -> `seller.html`
+- `feature/registration` -> `register.html`
 
 ### Student B
 
-- `add-car.html`
-- `login.html`
-- `search.html`
+- `feature/add-car` -> `add-car.html`
+- `feature/login` -> `login.html`
+- `feature/search` -> `search.html`
