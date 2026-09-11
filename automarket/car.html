@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search Cars - AutoMarket</title>
+<title>Car Details - AutoMarket</title>
 <link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/search.css">
+<link rel="stylesheet" href="css/car.css">
 </head>
 <body>
 <header>
@@ -23,31 +23,17 @@
   </div>
 </header>
 
-<section class="search-hero">
+<main class="page-content">
   <div class="container">
-    <h1>Find Your Perfect Car</h1>
-    <p>Search by model and year to find the car that fits your needs.</p>
+    <div id="car-detail" class="car-detail" aria-live="polite"></div>
   </div>
-</section>
-
-<section class="page-content">
-  <div class="container">
-    <div class="search-box">
-      <input type="text" id="search-model" placeholder="Enter car model (e.g., Toyota, BMW)">
-      <input type="text" id="search-year" placeholder="Enter year (e.g., 2020)">
-      <button id="search-btn" class="btn">Search</button>
-    </div>
-    <div id="search-results" class="car-list">
-      <!-- Search results will be displayed here -->
-    </div>
-  </div>
-</section>
+</main>
 
 <footer>
   <div class="container">
     <p>&copy; <span data-current-year>2026</span> AutoMarket. All rights reserved.</p>
   </div>
 </footer>
-<script src="js/search.js"></script>
+<script src="js/car.js"></script>
 </body>
 </html>
