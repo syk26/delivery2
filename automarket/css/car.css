@@ -1,0 +1,20 @@
+.car-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.car-detail img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.car-detail-content { padding: 30px; }
+.car-detail-content h1 { color: #2c3e50; margin-bottom: 20px; }
+.car-detail-content p { color: #666; margin: 8px 0; }
+.car-detail-content .price { color: #e74c3c; font-size: 1.5rem; font-weight: bold; margin: 20px 0; }
